@@ -30,7 +30,8 @@
         </li>
       </ul>
       <span class="navbar-text">
-        Navbar text with an inline element
+        <a href="https://github.com/brian-hargrove" target="_blank"><img src="./Assets/GitHub-Mark-Light-32px.png" alt="" id=githubBug></a>
+        <a href="https://www.linkedin.com/in/bdhargrove/" target="_blank"><img src="./Assets/LI-In-Bug.png" alt="" id="linkedinBug"></a>
       </span>
     </div>
   </nav>
@@ -154,25 +155,32 @@
 
 
 <!-- CONTACT -->
-<section id="contact">
+<section id="container">
 <H1 class="shimmer">CONTACT ME</H1>
-<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/brian.hargrove@outlook.com" method="post">
-    <fieldset id="fs-frm-inputs">
-      <label for="full-name">Full Name</label>
-      <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-      <label for="email-address">Email Address</label>
-      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-      <label for="message">Message</label>
-      <textarea rows="5" name="message" id="message" placeholder="Your message" required=""></textarea>
-      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-    </fieldset>
-    <input type="submit" value="Submit">
-</form>
+  
+    
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/brian.hargrove@outlook.com" method="post">
+        <fieldset id="fs-frm-inputs">
+          <div id="contact">
+          <label for="full-name">Full Name</label>
+          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+          <label for="email-address">Email Address</label>
+          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+          <label for="message">Message</label>
+            <textarea rows="5" name="message" id="message" placeholder="Your message" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            <input type="submit" value="Submit">
+          </div>
+          </fieldset>
+
+
+      </form>
 
 
 
-
+    
 </section>
+
 <!-- BOOTSTRAP -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
