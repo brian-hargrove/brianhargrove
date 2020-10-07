@@ -9,7 +9,7 @@
 .shimmer {
     text-align: center;
     color: rgba(241, 233, 233, 0.753);
-    background: -webkit-gradient(linear, left top, right top, from(rgb(236, 44, 10)), to(rgb(180, 16, 16)), color-stop(0.5, #fff));
+    background: -webkit-gradient(linear, left top, right top, from(rgb(161, 29, 6)), to(rgb(180, 16, 16)), color-stop(0.5, #fff));
     background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
     background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
     -webkit-background-size: 125px 100%;
@@ -64,9 +64,43 @@
     }
   }
 
+/*ABOUT SECTION*/
+#about {
+  background-color: #913f28;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18pt;
+  margin-top: -32px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
 
+#experience{
+  padding-top: 15px;
+}
 
+/*PORTFOLIO SECTION */
+#portSection{
+  background-color: royalblue;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  margin-top: -32px;
+}
+#portfolio{
+  background-color: royalblue;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.d-md-block{
+  background-color: red;
+
+}
+
+#carousel2{
+  height: 500px;
+
+}
 
   /*contact form*/
 form {
