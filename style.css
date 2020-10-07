@@ -82,24 +82,33 @@
 #portSection{
   background-color: royalblue;
   padding-top: 50px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   margin-top: -32px;
 }
 #portfolio{
-  background-color: royalblue;
   width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
-
+#portfolio h1{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
 .d-md-block{
-  background-color: red;
+  background-color: transparent;
 
 }
 
-#carousel2{
+.carousel-item{
   height: 500px;
 
+}
+#carousel4{
+  background-image: 200px;
+}
+
+#carousel5{
+   
 }
 
   /*contact form*/
