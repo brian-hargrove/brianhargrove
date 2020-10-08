@@ -19,7 +19,6 @@ a:link {
   padding-left: 20px;
   padding-right: 10px;
 }
-
 .navbar-text{
   display: flex;
   justify-content: space-between;
@@ -94,16 +93,14 @@ a:link {
 #about {
   background:linear-gradient(to bottom, #d66b32 0%,#3468a3 75% ) ;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 18pt;
+  font-size: 20pt;
   margin-top: -32px;
   padding-top: 60px;
   padding-bottom: 200px;
 }
-
 #experience{
   padding-top: 15px;
 }
-
 /*PORTFOLIO SECTION */
 #portSection{
   background: linear-gradient(to bottom,#3468a3 0%, #6ca2e0 75%);
@@ -126,12 +123,9 @@ a:link {
 .carousel-item{
   height: 500px;
 }
-#carousel4{
-  background-image: 200px;
-}
-#carousel6,#carousel7{
-  height: 600px;
-  
+.tba{
+  color: black;
+  font-size: 23pt;
 }
 /*contact form*/
 #container{
@@ -171,8 +165,6 @@ input [type-text],select,textarea {
   background-color: transparent;
   resize: vertical;
   }
-
-
 /* submit button */
 input[type=submit] {
   background-color:transparent;
@@ -195,4 +187,26 @@ input[type=submit]:hover{
   margin-bottom: 500px;
   line-height: 75%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.comingSoon{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 25px;
+}
+
+#blueSoon{
+  text-align: center;
+  color:white;
+  margin-top: 200px;
+  margin-left: 200px;
+  font-size: 50pt;
+}
+
+#redSoon{
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+  margin-left: 200px;
+  font-size: 50pt;
 }
