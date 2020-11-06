@@ -156,6 +156,7 @@ label{
 
 #full-name, #email-address{
   background-color:rgb(237, 248, 250);
+  
   font-size: 18pt;
   border: 1px solid thistle;
 }
