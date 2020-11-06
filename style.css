@@ -155,15 +155,16 @@ label{
 }
 
 #full-name, #email-address{
-  background-color:transparent;
+  background-color:rgb(237, 248, 250);
   font-size: 18pt;
   border: 1px solid thistle;
 }
 input [type-text],select,textarea {
   width: 100%;
+  height: 100px;
   padding: 12px;
   border: 1px solid thistle;
-  background-color: transparent;
+  background-color: rgb(237, 248, 250);
   resize: vertical;
   }
 /* submit button */
@@ -199,13 +200,13 @@ input[type=submit]:hover{
   padding-top: 25px;
 }
 
-#blueSoon{
+/* #blueSoon{
   text-align: center;
   color:white;
   margin-top: 200px;
   margin-left: 200px;
   font-size: 50pt;
-}
+} */
 
 #redSoon{
   text-align: center;
