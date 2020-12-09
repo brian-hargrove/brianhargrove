@@ -123,10 +123,11 @@ a:link {
 .carousel-item{
   height: 500px;
 }
-.tba{
+
+/* .tba{
   color: black;
   font-size: 23pt;
-}
+} */
 /*contact form*/
 #container{
   background-image: url(./Assets/coxhallGardens-day.JPG);
